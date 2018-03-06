@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    height: 35px;
+    width: 450px;
+    margin: auto;
+}
+nav li{
+    float: left;
+    margin: 0 20px 40px 40px;
+    list-style: none;
+    display: inline;
+    text-decoration-line: none;
+    }
+nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper {
+    padding-top: 20px;
+    width: 860px;
+    margin: auto;
+}
