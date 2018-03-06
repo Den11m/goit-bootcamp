@@ -1,0 +1,4 @@
+div.wrapper>header>nav>ul*4>li>a
+main>section*6>img+p+h2{#}+p{lorem40}^^button{Load more}
+
+main>ul>li*6>img[src="img/image-$.jpg"]+p+h2{#}+p{lorem40}
