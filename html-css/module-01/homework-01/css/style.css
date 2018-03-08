@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    padding-top: 25px;
+    width: 900px;
+    margin: auto;
+}
+/*ul {*/
+    /*font-size: 0;*/
+/*}*/
+nav li{
+    display: inline-block;
+    margin: 0 9%;
+    /*font-size: 16px;*/
+}
+section {
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+}

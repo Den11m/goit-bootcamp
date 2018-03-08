@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    padding: 75px 0 70px;
+    width: 900px;
+    margin: auto;
+}
+header {
+    margin-bottom: 100px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8%;
+}
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a1a1a1;
+}
+nav a:hover {
+    color: #68cbf8;
+}
+section {
+    display: inline-block;
+    width: 420px;
+    }
+section:nth-of-type(even) {
+    margin-left: 56px;
+}
+button {
+    display: block;
+    width: 165px;
+    height: 60px;
+    margin: auto;
+}
