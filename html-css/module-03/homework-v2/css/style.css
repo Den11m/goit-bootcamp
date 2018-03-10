@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #626262;
+}
+.wrapper {
+    padding: 75px 0 70px;
+    width: 900px;
+    margin: auto;
+}
+.page-header {
+    margin-bottom: 100px;
+}
+.menu-item {
+    display: inline-block;
+    margin: 0 8%;
+}
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu-link:hover {
+    color: #68cbf8;
+}
+section {
+    display: inline-block;
+    width: 420px;
+    padding-bottom: 130px;
+    }
+section:nth-of-type(even) {
+    margin-left: 56px;
+}
+h2 {
+    line-height: 90px;
+    font-size: 30px;
+}
+.titel {
+    color: #bdb7aa;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+button {
+    display: block;
+    width: 165px;
+    height: 60px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #626262;
+}
+button:hover {
+    background-color: #626262;
+    color: white;
+}
