@@ -27,9 +27,12 @@ section {
     display: inline-block;
     width: 420px;
     padding-bottom: 130px;
-    }
+}
 section:nth-of-type(even) {
     margin-left: 56px;
+}
+section:nth-last-of-type(-n+2) {
+    padding-bottom: 55px;
 }
 h2 {
     line-height: 90px;

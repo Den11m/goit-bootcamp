@@ -27,13 +27,13 @@
         <option value="$PROJECT_DIR$/module-03/classwork-02/css/style.css" />
         <option value="$PROJECT_DIR$/module-03/classwork-02/index.html" />
         <option value="$PROJECT_DIR$/module-03/homework/index.html" />
-        <option value="$PROJECT_DIR$/module-03/homework/css/style.css" />
         <option value="$PROJECT_DIR$/module-03/homework-v2/index.html" />
         <option value="$PROJECT_DIR$/module-03/homework-v2/css/style.css" />
-        <option value="$PROJECT_DIR$/module-04/classwork-01/index.html" />
-        <option value="$PROJECT_DIR$/module-04/classwork-01/css/style.css" />
         <option value="$PROJECT_DIR$/module-03/classwork-03/css/style.css" />
         <option value="$PROJECT_DIR$/module-03/classwork-03/index.html" />
+        <option value="$PROJECT_DIR$/module-04/classwork-01/index.html" />
+        <option value="$PROJECT_DIR$/module-04/classwork-01/css/style.css" />
+        <option value="$PROJECT_DIR$/module-03/homework/css/style.css" />
       </list>
     </option>
   </component>
@@ -58,7 +58,7 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -107,11 +107,13 @@
       <workItem from="1520582608112" duration="6930000" />
       <workItem from="1520597714069" duration="18506000" />
       <workItem from="1520686488206" duration="4240000" />
+      <workItem from="1520789693532" duration="6818000" />
+      <workItem from="1520839027654" duration="13077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71127000" />
+    <option name="totallyTimeSpent" value="91022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -156,18 +158,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/module-04/classwork-01/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="833">
+          <caret line="49" column="59" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+          <folding>
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module-04/classwork-01/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#446#560#0" expanded="false" />
+            <element signature="e#580#604#0" expanded="false" />
+            <element signature="e#729#863#0" expanded="false" />
+            <element signature="e#888#916#0" expanded="false" />
+            <element signature="e#941#969#0" expanded="false" />
+            <element signature="e#994#1022#0" expanded="false" />
+            <element signature="e#1042#1066#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module-04/classwork-01/index.html" />
+    <entry file="file://$PROJECT_DIR$/module-04/classwork-01/css/style.css" />
     <entry file="file://$PROJECT_DIR$/module-03/homework-v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -281,20 +299,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-03/homework/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-03/homework/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-03/homework-v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -331,25 +335,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-04/classwork-01/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="161" column="26" lean-forward="true" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module-04/classwork-01/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module-03/classwork-03/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -357,6 +346,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-04/classwork-02/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-04/classwork-01/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-04/classwork-01/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="84" column="16" lean-forward="true" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <folding>
+            <element signature="e#446#560#0" expanded="false" />
+            <element signature="e#580#604#0" expanded="false" />
+            <element signature="e#729#863#0" expanded="false" />
+            <element signature="e#888#916#0" expanded="false" />
+            <element signature="e#941#969#0" expanded="false" />
+            <element signature="e#994#1022#0" expanded="false" />
+            <element signature="e#1042#1066#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-03/homework/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-03/homework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
           <folding />
         </state>
       </provider>
