@@ -1,0 +1,72 @@
+@import "reset.css";
+@import "variable.css";
+body {
+    background-color: forestgreen;
+}
+.title {
+    width: 500px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 100px auto 20px;
+}
+.nav {
+    width: 492.2px;
+    margin: 0 auto;
+    background: #1e8449;
+    color: #f0f0f0;
+}
+.nuv__submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.nuv__menu-item {
+    float: left;
+    /*margin-right: 20px;*/
+    /*background-color: #fff;*/
+    padding: 10px 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+.nuv__submenu-item {
+    position: relative;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #9b59b6;
+    text-align: left;
+    width: 161%;
+}
+.nuv__menu-item:hover {
+    background-color: #9b59b6;
+}
+.nuv__menu-item:hover > .nuv__submenu {
+    display: block;
+}
+.nuv__submenu-item:hover {
+    background: #1e8449;
+}
+.list {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -27%;
+    z-index: 2;
+}
+.list-item {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #9b59b6;
+}
+.nuv__submenu-item:hover > .list {
+    display: block;
+}
+.list-item:hover {
+    background: #1e8449;
+}
+
+
+

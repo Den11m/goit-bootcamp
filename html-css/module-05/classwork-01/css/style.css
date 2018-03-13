@@ -1,0 +1,110 @@
+@import "reset.css";
+@import "variable.css";
+/*задание 1*/
+.wrapper {
+    /*position: relative;*/
+    background-image: linear-gradient(rgba(206, 201, 19, 0.3) 0%,
+    rgba(60, 205, 27, 0.3) 100%), url("https://placeimg.com/640/480/any");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+/*задание 2*/
+.box {
+    position: relative;
+    width: var(--box-size);
+    height: 400px;
+    background-color: #424242;
+    margin: auto;
+}
+.box-little {
+    position: absolute;
+    width: var(--box-little-size);
+    height: var(--box-little-size);
+}
+.box-little-1 {
+    background-color: var(--box1);
+    top: 0;
+    left: 0;
+}
+.box-little-2 {
+    background-color: var(--box2);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.box-little-3 {
+    background-color: var(--box3);
+    top: 0;
+    right: 0;
+}
+.box-little-4 {
+    background-color: var(--box4);
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+}
+.box-little-5 {
+    background-color: var(--box5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-little-6 {
+    background-color: var(--box6);
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%);
+}
+.box-little-7 {
+    background-color: var(--box7);
+    bottom: 0;
+    left: 0;
+}
+.box-little-8 {
+    background-color: var(--box8);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.box-little-9 {
+    background-color: var(--box9);
+    bottom: 0;
+    right: 0;
+}
+/*задание 3*/
+.menu {
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.submenu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    text-transform: lowercase;
+}
+.menu-item:hover .submenu{
+    display: block;
+    z-index: 2;
+}
+.menu-item {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.1);
+}
+.submenu-item {
+    background-color: rgba(255,255,255,0.3);
+    padding: 5px 20px 5px 10px;
+    width: 142px;
+}
+.menu-item:hover, .submenu-item:hover, .submenu-item:hover .submenu-link{
+    background: #E91E63;
+    color: #ffffff;
+}
