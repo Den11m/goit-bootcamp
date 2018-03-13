@@ -1,0 +1,9 @@
+:root {
+    --menu__bgc: #333333;
+    --menu__bgc-hover: #2c98fd;
+    --menu__bgc-hover-2: #3fa4ff;
+    --menu__size-w: 190px;
+    --menu__size-h: 10px;
+    --menu__color: #ffffff;
+    --menu__border-color: #1680ed;
+}

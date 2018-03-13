@@ -1,0 +1,78 @@
+@import "reset.css";
+@import "variable.css";
+body {
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+.nav {
+    width: 477px;
+    margin: 0 auto;
+    background: var(--menu__bgc);
+    color: var(--menu__color);
+    border-bottom: 2px solid var(--menu__bgc-hover);
+}
+.nuv__submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.nuv__menu-item {
+    float: left;
+    padding: 20px 20px 18px;
+    position: relative;
+    line-height: var(--menu__size-h);
+    text-transform: uppercase;
+}
+.nuv__menu-item:first-child {
+    background-color: var(--menu__bgc-hover);
+}
+.nuv__submenu-item {
+    position: relative;
+    width: var(--menu__size-w);
+    padding: 20px 15px 20px 20px;
+    text-transform: capitalize;
+    background-color: var(--menu__bgc-hover);
+    line-height: var(--menu__size-h);
+    border: 1px solid var(--menu__border-color);
+}
+.nuv__menu-item:hover {
+    background-color: var(--menu__bgc-hover);
+}
+.nuv__menu-item:hover > .nuv__submenu {
+    display: block;
+}
+.nuv__submenu-item:hover {
+    background: var(--menu__bgc-hover-2);
+}
+.list {
+    display: none;
+    position: absolute;
+    top: -1px;
+    right: -101%;
+}
+.list-item {
+    width: var(--menu__size-w);
+    padding: 20px;
+    text-transform: capitalize;
+    background-color: var(--menu__bgc-hover);
+    line-height: var(--menu__size-h);
+    border: 1px solid var(--menu__border-color);
+}
+.nuv__submenu-item:first-of-type, .list-item:first-of-type {
+    border-bottom: 0;
+}
+.nuv__submenu-item:hover > .list {
+    display: block;
+}
+.list-item:hover {
+    background: var(--menu__bgc-hover-2);
+}
+.nuv__submenu-item::after {
+    content: "+";
+    padding-left: 96px;
+}
+
+
+

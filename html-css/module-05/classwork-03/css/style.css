@@ -1,0 +1,69 @@
+@import "reset.css";
+@import "variable.css";
+body {
+    padding-top: 6px;
+}
+.nav {
+    width: 592px;
+    margin: 0 auto;
+    background: var(--menu__bgc);
+    color: var(--menu__color);
+}
+.nuv__submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.nuv__menu-item {
+    float: left;
+    width: var(--menu__size-w);
+    height: var(--menu__size-h);
+    position: relative;
+    text-align: center;
+    line-height: var(--menu__size-h);
+}
+.nuv__menu-item:first-letter {
+    text-transform: uppercase;
+}
+.nuv__submenu-item {
+    position: relative;
+    width: var(--menu__size-w);
+    height: var(--menu__size-h);
+    text-transform: uppercase;
+    background-color: var(--menu__bgc);
+    text-align: center;
+    line-height: var(--menu__size-h);
+}
+.nuv__menu-item:hover {
+    background-color: var(--menu__bgc-hover);
+}
+.nuv__menu-item:hover > .nuv__submenu {
+    display: block;
+}
+.nuv__submenu-item:hover {
+    background: var(--menu__bgc-hover);
+}
+.list {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -100%;
+}
+.list-item {
+    width: var(--menu__size-w);
+    height: var(--menu__size-h);
+    text-transform: capitalize;
+    background-color: var(--menu__bgc);
+    text-align: center;
+    line-height: var(--menu__size-h);
+}
+.nuv__submenu-item:hover > .list {
+    display: block;
+}
+.list-item:hover {
+    background: var(--menu__bgc-hover);
+}
+
+
+
