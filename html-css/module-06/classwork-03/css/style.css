@@ -1,0 +1,214 @@
+@import "reset.css";
+@import "variable.css";
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 5px;
+}
+.wrapper-header {
+    background-image: url(../img/горы.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+.wrapper-top {
+    background-color: rgba(255,255,255,0.25);
+}
+.header {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    flex-basis: 510px;
+}
+.logo {
+    font-family: 'Euphoria Script', cursive;
+    font-size:29px;
+    color: #95a5ad;
+}
+.logo-span {
+    color: var(--btn-color);
+}
+.menu-link {
+    font-size: 12px;
+    font-family: var(--text);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.menu-link:hover {
+    border-bottom: 2px solid var(--btn-color);
+}
+.call {
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--btn-color);
+    padding: 15px 44px;
+    border: 2px solid var(--btn-color);
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 1s;
+}
+.call:hover {
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+}
+.info {
+    padding: 170px 0 190px 40px;
+}
+.info-title {
+    font-family: var(--text);
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.info-span {
+    display: block;
+    font-family: 'Euphoria Script', cursive;
+    color: var(--btn-color);
+    margin-top: -30px;
+}
+.info-text {
+    font-family: var(--text);
+    font-size: 18px;
+    color: #dfe3e6;
+    max-width: 440px;
+    margin-bottom: 25px;
+}
+.info-btn {
+    font-family: ‘Raleway’, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: var(--btn-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 75px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: 1s;
+}
+.info-btn:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: var(--btn-color);
+}
+.wrapper {
+    background-color: #f6f4f4;
+}
+.about {
+    position: relative;
+    padding: 255px 0 230px;
+}
+.about-title {
+    font-family: var(--text);
+    font-size: 20px;
+    color: #393b44;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.text {
+    font-family: var(--text);
+    font-size: 14px;
+    color: #949494;
+}
+.about-text {
+    max-width: 352px;
+    margin-bottom: 30px;
+}
+.about-btn {
+    padding: 15px 25px;
+    font-size: 12px;
+}
+.about-pict1 {
+    display: block;
+    width: 810px;
+    height: 570px;
+    position: absolute;
+    top: -60px;
+    right: -8.6%;
+}
+.about-pict2 {
+    display: block;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 40px;
+    left: 34%;
+}
+.wrapper-journal {
+    background-color: #ffffff;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--text);
+    color: #2c2e37;
+    font-weight: 700;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+.journal {
+    padding: 110px 0 90px;
+    counter-reset: journal-counter;
+}
+.journal-article-caption {
+    font-size: 11px;
+    font-family: var(--text);
+    text-transform: uppercase;
+    color: var(--btn-color);
+}
+.journal-body {
+    display: flex;
+}
+.journal-article {
+    flex-basis: 33.33%;
+    counter-increment: journal-counter;
+}
+.journal-img {
+    width: 380px;
+    height: 380px;
+}
+.journal-article-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: var(--text);
+    margin: 50px 0 30px;
+    font-weight: 700;
+}
+.article-content {
+    padding: 43px 30px;
+    text-align: center;
+}
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.article-content>p::after {
+    content: "0"counter(journal-counter);
+    display: block;
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    color: #949494;
+    margin-top: 40px;
+}
+.icon-container {
+    position: relative;
+}
+.fa-gratipay, .fa-envira, .fa-tint {
+    position: absolute;
+    font-size: 81px;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

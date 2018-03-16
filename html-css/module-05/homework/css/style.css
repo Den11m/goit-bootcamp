@@ -4,20 +4,84 @@
     box-sizing: border-box;
     color: #626262;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 .clearfix:after {
     content: "";
     display: block;
     clear: both;
 }
-.wrapper {
+.container {
     width: 1110px;
     margin: auto;
-    padding: 38px 0 80px 0;
+}
+.wrapper-nav {
+    background-color: #ffffff;
+}
+.wrapper-slider {
+    background-image: url(../img/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider {
+    position: relative;
+    margin: auto;
+    padding: 219px 0 284px;
+}
+.slider-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.slider-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: 170px;
+}
+.slider-btn {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    background-color: rgba(78,198,171,.651);
+    border: 0;
+    top: 225px;
+}
+.slider-btn:hover {
+    background-color: rgba(67, 168, 144, 0.65);
+}
+
+
+.slider-btn-l {
+    left: 0;
+    background-image: url(../img/1.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider-btn-r {
+    right: 0;
+    background-image: url(../img/2.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper-content {
+    background-color: #e9f0fd;
+}
+.header {
+    padding: 33px 0 30px;
 }
 .logo {
     float: left;
     font-size: 30px;
+    line-height: 30px;
     font-weight: 300;
     text-transform: uppercase;
     text-decoration: none;
@@ -54,7 +118,7 @@
     text-transform: uppercase;
 }
 .content {
-    padding-top: 105px;
+    padding: 100px 0;
 }
 .section-title::after {
     content: "";
@@ -64,20 +128,21 @@
     background: #1abc9c;
     margin: 32px auto 0;
 }
-.gallary {
-    margin: 92px 0 105px;
+.gallery {
+    margin-top: 81px;
 }
-.gallary-item {
+.gallery-item {
+    position: relative;
     float: left;
     width: 255px;
     background: #e9f0fd;
     margin: 0 30px 30px 0;
 }
-.gallary-item:nth-of-type(4n+4){
+.gallery-item:nth-of-type(4n+4){
     margin-right: 0;
 }
-.gallary-item:nth-last-of-type(-n+4){
-    margin-top: 0;
+.gallery-item:nth-last-of-type(-n+4){
+    margin-bottom: 0;
 }
 .product-pic {
     display: block;
@@ -103,10 +168,10 @@
     width: 54px;
     color: #ffffff;
 }
-.gallary-item:hover .product-name{
+.gallery-item:hover .product-name{
     background-color: #1abc9c;
 }
-.gallary-item:hover .product-price{
+.gallery-item:hover .product-price{
     background-color: #7fd9c7;
 }
 .blog {
@@ -157,4 +222,78 @@
 .btn:hover {
     background-color: #4b9b81;
     border: 1px solid #ffffff;
+}
+.wrapper-footer {
+    background-color: #323232;
+}
+.footer {
+    padding: 38px 0 33px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.footer-copyright {
+    color: #fefefe;
+    text-transform: capitalize;
+}
+.footer-link {
+    color: #45b6a1;
+}
+.box-icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 255px;
+    height: 282px;
+    border: 10px solid rgba(255, 255, 255, 0.76);
+    background-color: rgba(0,0,0,0.55);
+}
+.add-to-cart {
+    position: absolute;
+    bottom: 75px;
+    left: 35px;
+    background-color: #323232;
+    background-image: url(../img/6.png);
+    background-size: auto;
+    background-position: center left;
+    background-repeat: no-repeat;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 14.5px 18px 14.5px 56.7px;
+}
+.icon {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    top: 80px;
+    transition: .5s;
+}
+.icon-1 {
+    background-image: url(../img/3.png);
+    left: 35px;
+}
+.icon-2 {
+    background-image: url(../img/4.png);
+    left: 95px;
+}
+.icon-3 {
+    background-image: url(../img/5.png);
+    right: 35px;
+}
+.add-to-cart:hover , .icon:hover {
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+.icon:hover {
+    transform: rotateY(360deg);
+}
+.gallery-item:hover .box-icon {
+    display: block;
 }

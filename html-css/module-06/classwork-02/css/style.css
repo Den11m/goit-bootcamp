@@ -1,0 +1,47 @@
+@import "reset.css";
+@import "variable.css";
+/*задание 1*/
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    height: 75px;
+    width: 500px;
+    margin: auto;
+}
+.box {
+    /*flex-basis: 150px;*/
+    /*height: 150px;*/
+    flex-grow: 1;
+    text-align: center;
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*padding-top: 55px;*/
+    /*font-size: 45px;*/
+    color: white;
+}
+.box-1 {
+    background-color: #38b6e8;
+}
+.box-2 {
+    background-color: #309bc6;
+    align-self: center;
+}
+.box-3 {
+    background-color: #226f8e;
+    align-self: flex-end;
+}
+.box-4 {
+    background-color: #174a5e;}
+.box-5 {
+    background-color: #0e303d;
+    align-self: center;
+}
+.box-6 {
+    background-color: #061217;
+    align-self: flex-end;
+}

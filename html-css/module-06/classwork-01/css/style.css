@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "variable.css";
+/*задание 1*/
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 700px;
+    height: 472px;
+    margin: auto;
+}
+.box {
+    display: block;
+    flex-basis: 33%;
+    height: 32%;
+}
+
+
