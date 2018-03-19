@@ -54,7 +54,7 @@
     text-transform: uppercase;
 }
 .content {
-    padding-top: 105px;
+    margin-top: 105px;
 }
 .section-title::after {
     content: "";
@@ -64,8 +64,11 @@
     background: #1abc9c;
     margin: 32px auto 0;
 }
+.product {
+    margin-bottom: 105px;
+}
 .gallary {
-    margin: 92px 0 105px;
+    margin: 92px 0 0;
 }
 .gallary-item {
     float: left;
@@ -77,7 +80,7 @@
     margin-right: 0;
 }
 .gallary-item:nth-last-of-type(-n+4){
-    margin-top: 0;
+    margin-bottom: 0;
 }
 .product-pic {
     display: block;
@@ -139,10 +142,9 @@
     margin-top: 11px;
 }
 .blog-text {
-    margin-top: 29px;
+    margin: 29px 0 16px;
     font-size: 14px;
     font-weight: 400;
-    padding-bottom: 16px;
 }
 .btn {
     background-color: #4ec6ab;
