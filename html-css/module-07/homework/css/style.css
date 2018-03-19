@@ -1,0 +1,134 @@
+@import "reset.css";
+@import "variable.css";
+.container {
+    max-width:  1200px;
+    margin: auto;
+}
+.header {
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: var(--ff-montserrat);
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-gold);
+}
+.nav {
+    flex-basis: 490px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-link {
+    font-family: var(--ff-montserrat);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--color-text-1);
+    padding: 12px;
+    transition: var(--anime-time);
+    transition-timing-function: linear;
+}
+.menu-link:hover {
+    color: var(--color-gold);
+}
+.title {
+    font-family: var(--ff-kaushan);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 23px;
+    color: var(--color-text-1);
+}
+.section-title {
+    font-family: var(--ff-montserrat);
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-text-1);
+    margin-bottom: 46px;
+}
+.services {
+    padding-top: 113px;
+}
+.text {
+    font-family: var(--ff-roboto);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-text-2);
+    line-height: 24px;
+}
+.services-items-name {
+    font-family: var(--ff-montserrat);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-text-1);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.services-body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 240px;
+    align-content: space-between;
+}
+.services-items {
+    position: relative;
+    padding-left: 82px;
+    flex-basis: 381px;
+}
+.services-items-icon {
+    position: absolute;
+    left: 25px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.services-items-icon-1 {
+    background-image: url(../img/Icon-Basket.png);
+}
+.services-items-icon-2 {
+    background-image: url(../img/Icon-Laptop.png);
+}
+.services-items-icon-3 {
+    background-image: url(../img/Icon-Locked.png);
+}
+
+
+.contact-form {
+    display: flex;
+    /*align-items: center;*/
+    /*min-width: 380px;*/
+}
+.contact-form-text {
+    display: block;
+    flex-basis: 230px;
+    font-family: var(--ff-roboto);
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--color-text-2);
+    padding: 10px 0;
+    border: 1px solid var(--color-border);
+    border-right: 0;
+    text-indent: 13px;
+}
+.contact-form-btn {
+    font-family: var(--ff-montserrat);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color:  var(--color-gold);
+    padding: 13px 33px;
+    border: 0;
+}
