@@ -5,8 +5,6 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400"
-          rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Minin Denis m7_hw</title>
 </head>
@@ -38,35 +36,51 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">
+                        <a href="#contact" class="menu-link">
                             contact
                         </a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="main">
             <section class="services">
-                <h2 class="section-title">services</h2>
-                <h3 class="title">proin iaculis purus consequat sem cure.</h3>
+                <h2 class="title">
+                    services
+                </h2>
+                <h3 class="sub-title">
+                    Proin iaculis purus consequat sem cure.
+                </h3>
                 <div class="services-body">
                     <article class="services-items">
-                        <span class="services-items-icon services-items-icon-1"></span>
-                        <h4 class="services-items-name">E-Commerce</h4>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur
-                            earum exercitationem iusto modi mollitia nemo saepe.</p>
+                        <img src="img/Icon-Basket.png" class="services-items-icon" alt="">
+                        <h4 class="services-items-name">
+                            E-Commerce
+                        </h4>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur
+                            earum exercitationem iusto modi mollitia nemo saepe.
+                        </p>
                     </article>
                     <article class="services-items">
-                        <span class="services-items-icon services-items-icon-2"></span>
-                        <h4 class="services-items-name">Responsive Web</h4>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur
-                            earum exercitationem iusto modi mollitia nemo saepe.</p>
+                        <img src="img/Icon-Laptop.png" class="services-items-icon" alt="">
+                        <h4 class="services-items-name">
+                            Responsive Web
+                        </h4>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur
+                            earum exercitationem iusto modi mollitia nemo saepe.
+                        </p>
                     </article>
                     <article class="services-items">
-                        <span class="services-items-icon  services-items-icon-3"></span>
-                        <h4 class="services-items-name">Web Security</h4>
-                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur
-                            earum exercitationem iusto modi mollitia nemo saepe.</p>
+                        <img src="img/Icon-Locked.png" class="services-items-icon" alt="">
+                        <h4 class="services-items-name">
+                            Web Security
+                        </h4>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur
+                            earum exercitationem iusto modi mollitia nemo saepe.
+                        </p>
                     </article>
                 </div>
             </section>
@@ -75,18 +89,28 @@
 </div>
 <div class="wrapper-bottom">
     <div class="container">
-        <section class="contact">
-            <h2 class="section-title">contact us</h2>
-            <h3 class="title">proin iaculis purus consequat sem cure.</h3>
-            <form class="contact-form" action="">
-                <input class="contact-form-text" type="text" placeholder="your name *">
-                <input class="contact-form-text" type="email" placeholder="your e-mail *">
-                <input class="contact-form-text" type="text" placeholder="subject">
-                <input class="contact-form-text contact-form-place" type="text" placeholder="your message *">
-
-                <input class="contact-form-btn" type="submit" value="send message" >
+        <section class="contact" id="contact">
+            <h2 class="title title-contact">
+                contact us
+            </h2>
+            <h3 class="sub-title">
+                Proin iaculis purus consequat sem cure.
+            </h3>
+            <form class="contact-form" action="#" method="post">
+                <div class="contact-form-all">
+                    <div class="contact-form-left">
+                        <input class="contact-form-text" type="text" placeholder="your name *" name="name"
+                               required>
+                        <input class="contact-form-text" type="email" placeholder="your e-mail *" name="e-mail"
+                               required>
+                        <input class="contact-form-text" type="text" placeholder="subject" name="subject">
+                    </div>
+                    <textarea  class="contact-form-place" name="feedback" placeholder="your message *"
+                               maxlength="500" required></textarea>
+                </div>
+                <input class="contact-form-btn" type="submit" value="send message">
             </form>
-    </section>
+        </section>
     </div>
 </div>
 </body>

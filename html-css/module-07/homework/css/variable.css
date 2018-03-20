@@ -1,13 +1,9 @@
 :root {
-    --ff-roboto: 'Roboto', sans-serif;
-    --ff-kaushan: 'Kaushan Script', cursive;
+    --ff-roboto-slab: 'Roboto Slab', sans-serif;
+    --ff-wisdom: 'Wisdom Script AI', cursive;
     --ff-montserrat: 'Montserrat', sans-serif;
     --color-gold: #fed136;
-    --color-pink: #f38181;
-    --color-yellow: #fce38a;
     --color-text-1: #222222;
-    --color-text-2: #9b9b9b;
-    --color-border: #e5e5e5;
-    --color-border-sociale: #f9bd87;
+    --color-text-2: #777777;
     --anime-time: 200ms;
 }

@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "variable.css";
+@import "font.css";
+/*задание 1*/
+form {
+    text-align: center;
+    margin: auto;
+}
+form > input {
+    display: block;
+    margin: 0 auto 20px;
+}

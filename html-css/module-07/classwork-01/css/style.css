@@ -1,0 +1,39 @@
+@import "reset.css";
+@import "variable.css";
+@import "font.css";
+/*задание 1*/
+
+.wrapper {
+    margin: auto;
+    max-width: 65%;
+    box-shadow: 0 0 0.1rem 0.1rem grey;
+    text-align: center;
+    padding: 15px 0;
+}
+.separate {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #444444;
+    color: #444444;
+    margin-bottom: 25px;
+}
+caption {
+    font-family: Sketchetica, sans-serif;
+    font-weight: 300;
+}
+.caption-black {
+    font-weight: 900;
+}
+th{
+    background-color: #444444;
+    border: 1px solid white;
+    color: white;
+}
+tr, td {
+    border: 1px solid #444444;
+}
+/*td:first-child {*/
+    /*text-transform: uppercase;*/
+    /*text-align: left;*/
+    /*padding-left: 20px;*/
+/*}*/
