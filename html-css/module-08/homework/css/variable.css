@@ -1,0 +1,9 @@
+:root {
+    --ff-roboto-slab: 'Roboto Slab', sans-serif;
+    --ff-wisdom: 'Wisdom Script AI', cursive;
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --color-gold: #fed136;
+    --color-text-1: #222222;
+    --color-text-2: #777777;
+    --anime-time: 200ms;
+}
