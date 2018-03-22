@@ -6,12 +6,59 @@
     list-style: none;
     border: none;
     font-family: var(--ff-Merriweather);
+    outline: none;
 }
-.clearfix:after {
-    content: "";
+.container {
+    min-width: 20rem;
+    max-width: 50.5rem;
+    margin: auto;
+    padding: 0 1rem;
+}
+img {
     display: block;
-    clear: both;
+    max-width:100%;
+    height: auto;
 }
-table {
-    border-collapse: collapse;
+.text {
+    margin-bottom: .625rem;
+    font-size: 1rem;
+    color: #777777;
+    line-height: 1.625rem;
+}
+.text:last-child {
+    margin-bottom: 0;
+}
+.article-title {
+    text-transform: capitalize;
+    font-size: 1.625rem;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: .03rem;
+    margin-bottom: 1rem;
+}
+.wrapper-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about {
+    padding: 4.438rem 0;
+}
+.title {
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.625rem;
+}
+.main {
+    padding: 3.75rem 0;
+}
+@media (min-width: 992px) {
+    .about {
+        padding: 11rem 0;
+    }
+    .title {
+        font-size: 3.875rem;
+    }
 }

@@ -1,0 +1,41 @@
+.wrapper {
+    background-color: #fff;
+}
+.nav {
+    display: none;
+}
+.logo {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+.header {
+    padding: 2rem 0;
+}
+@media (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav {
+        display: block;
+        flex-basis: 52%;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-link {
+        text-transform: capitalize;
+        color: #777777;
+    }
+
+    .menu-link:hover {
+        color: #bfba55;
+    }
+}

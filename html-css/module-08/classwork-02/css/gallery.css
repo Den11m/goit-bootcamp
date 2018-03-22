@@ -1,0 +1,41 @@
+@import "variable.css";
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+
+.wrapper-img {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/gallery-bg.jpg);
+}
+.gallery {
+    margin: 2rem 0 1.3rem;
+}
+.gallery-text {
+    text-align: center;
+}
+.gallery-img {
+    transition: 1s;
+}
+.gallery-img:hover {
+    transform: translate(0,-.5rem);
+    box-shadow: .1rem .1rem .5rem 0.3rem #777777;
+}
+.gallery-img:nth-child(odd):hover {
+    transform: translate(0,-.5rem);
+    box-shadow: 0 .1rem .5rem 0.3rem #777777;
+}
+.gallery-img:last-child:hover {
+    transform: translate(0,-.5rem);
+    box-shadow: .1rem .1rem .5rem 0.3rem #777777;
+}
+
+@media (min-width: 768px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .gallery-img{
+        width: 50%;
+        flex-grow: 1;
+    }
+}

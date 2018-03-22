@@ -1,0 +1,68 @@
+@import "variable.css";
+@import "reset.css";
+@import "header.css";
+@import "footer.css";
+
+.wrapper-img {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/contact-bg.jpg);
+}
+.form {
+    margin-top: 2rem;
+
+}
+.input, .message {
+    display: block;
+    border: 2px solid #f0f0f0;
+    width:100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+    transition: .4s;
+}
+.input:focus, .message:focus  {
+    border: 2px solid #000000;
+}
+.input:last-child {
+    margin-bottom: 0;
+}
+.input-container {
+    margin-bottom: 1rem;
+}
+.message {
+    height: 7.1875rem;
+}
+.btn {
+    display: block;
+    margin: auto;
+    background-color: #bfba55;
+    color: #ffffff;
+    padding: 1rem .75rem;
+    width: 100%;
+    border-radius: 6.25rem;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .input-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .input {
+        flex-basis:30%;
+        margin-bottom: 0;
+    }
+    .btn {
+        width: 50%;
+        margin: 0;
+    }
+}
+@media (min-width: 992px) {
+    .btn {
+        width: 21%;
+    }
+    .title {
+        font-size: 3.875rem;
+    }
+    .article-title {
+        font-size: 2rem;
+    }
+}
