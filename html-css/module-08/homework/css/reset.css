@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    line-height: 100%;
-    border: 0;
+    /*line-height: 100%;*/
+    border: none;
+    outline: none;
 }

@@ -1,0 +1,158 @@
+/*@import "reset.css";*/
+@import "variable.css";
+
+.avalon-bgi {
+    background-image: url(../img/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 175px 0 175px 120px;
+}
+.avalon-text {
+    font-size: 14px;
+    color: #ffffff;
+}
+.avalon-title {
+    font-size: 64px;
+    color: #ffffff;
+    margin-bottom: 52px;
+    font-weight: 300;
+}
+.btn {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 23.5px;
+    font-weight: bold;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 2s;
+}
+.btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+.avalon-text:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f4bc51;
+    margin-top: 20px;
+}
+.template {
+    display: block;
+}
+.avalon-bgc {
+    background-color: #f4bc51;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 45px;
+}
+.img-title {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.img-sub-title {
+    font-size: 14px;
+}
+.img-sub-title:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 30px 0;
+}
+.text-italic {
+    font-style: italic;
+}
+.theme {
+    margin-top: 10px;
+}
+.theme-bg-left {
+    background-image: url(../img/best-offer-bg.png);
+    padding: 175px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.theme-img {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    border: 1px solid #ffffff;
+    text-align: center;
+    line-height: 140px;
+    border-radius: 50%;
+}
+.img-subtitle {
+    margin-top: 33px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.theme-bg-right {
+    padding: 80px 40px;
+    background-color: #eeeeee;
+}
+.theme-title {
+    font-size: 32px;
+    color: #121212;
+    font-weight: 300;
+}
+.color {
+    color: #b94e5e;
+    font-weight: 700;
+}
+.theme-text {
+    color: #4a4a4a;
+    font-size: 13px;
+    margin: 18px 0;
+}
+.theme-list {
+    list-style: none;
+    padding: 0;
+}
+.theme-item {
+    font-size: 13px;
+    font-style: italic;
+    color: #7a7a7a;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.theme-item:last-child {
+    margin-bottom: 0;
+}
+.btn-theme {
+    background-color: #b94e5e;
+    border: 2px solid #b94e5e;
+    margin-top: 45px;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .avalon-bgi {
+        padding: 175px 0;
+        text-align: center;
+    }
+    .avalon-text:after {
+        margin: 20px auto 0;
+    }
+    .avalon-bgc {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .theme-bg-right {
+        padding: 30px;
+    }
+}
