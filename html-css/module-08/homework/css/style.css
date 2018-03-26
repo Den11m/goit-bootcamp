@@ -180,6 +180,12 @@
 .article-item {
     margin-bottom: 1.75rem;
 }
+.article-item:last-child {
+    margin-bottom: 0;
+}
+.article-body {
+    margin-bottom: 1.75rem;
+}
 .section-partner-btn {
     background-color: transparent;
     border: .125rem solid #ff4e50;
@@ -231,7 +237,7 @@
         margin-bottom: 1.875rem;
     }
     .article-body {
-        margin: auto;
+        margin: 0 auto 2.5rem;
         width: 60.156%;
         display: flex;
         justify-content: space-between;
@@ -245,8 +251,9 @@
         margin-bottom: 3.625rem;
     }
     .article-item:nth-last-child(-n+2) {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
     }
+
     .article-item-text {
         padding: 0;
     }
@@ -261,9 +268,10 @@
     }
     .article-body {
         width: 100%;
+        margin-bottom: 3.625rem;
     }
     .article-item {
         flex-basis: 24%;
-        margin-bottom: 3.625rem;
+        margin-bottom: 0;
     }
 }

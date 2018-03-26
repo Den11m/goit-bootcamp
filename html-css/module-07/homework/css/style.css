@@ -82,7 +82,6 @@ body {
     flex-wrap: wrap;
     min-height: 15rem;
     align-content: space-between;
-    margin-top: 5rem;
 }
 .services-items {
     flex-basis: 31%;
