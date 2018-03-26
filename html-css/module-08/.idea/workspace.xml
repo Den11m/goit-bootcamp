@@ -61,7 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module-09/homework" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="contact&#9;null&#9;null" />
   </component>
@@ -119,12 +119,13 @@
       <workItem from="1521619951282" duration="13720000" />
       <workItem from="1521707434545" duration="186000" />
       <workItem from="1521875161326" duration="876000" />
-      <workItem from="1522044927295" duration="635000" />
+      <workItem from="1522044927295" duration="1089000" />
+      <workItem from="1522046658041" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53457000" />
+    <option name="totallyTimeSpent" value="53943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="697" height="735" extended-state="0" />
@@ -262,7 +263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="272" column="19" lean-forward="true" selection-start-line="272" selection-start-column="19" selection-end-line="272" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -270,7 +270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>

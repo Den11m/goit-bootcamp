@@ -2,20 +2,17 @@
 @import "reset.css";
 @import "font.css";
 
-.container {
+.container-fluid {
     min-width: 20rem;
     max-width: 58.88rem;
-    margin: auto;
 }
-
 .wrapper-top {
     background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(../img/Vector-Smart-Object.jpg);
-    background-size: auto;
+    background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .header {
     padding-top: 1.313rem;
     text-align: center;
@@ -24,21 +21,17 @@
     color: #ffffff;
     margin-bottom: 2.375rem;
 }
-
 .nav {
-    width: 50%;
     margin: 0 auto 7.188rem;
 }
-
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0;
 }
-
 .menu-item {
-    flex-basis: 50%;
+    flex-basis: auto;
 }
-
 .menu-link {
     font-size: .875rem;
     padding: .447rem 1rem;
@@ -46,19 +39,15 @@
     border: .125rem solid transparent;
     border-radius: 1.125rem;
     transition: var(--anime-time);
-
 }
-
 .menu-link:hover {
     border: .125rem solid #ffffff;
 }
-
 .logo {
     font-size: 1.25rem;
     color: #ffffff;
     text-transform: uppercase;
 }
-
 .title {
     font-family: var(--ff-montserrat);
     font-weight: 700;
@@ -68,12 +57,10 @@
     color: #ffffff;
     text-align: center;
 }
-
 .br {
     display: block;
     margin: auto;
 }
-
 .sub-title {
     font-family: var(--ff-roboto-v1);
     font-weight: 300;
@@ -83,13 +70,13 @@
     text-align: center;
     padding: 0 3.25rem;
 }
-
 .btn {
     display: block;
     margin: auto;
     font-family: var(--ff-montserrat);
     font-weight: 700;
     font-size: .875rem;
+    line-height: .875rem;
     color: #ffffff;
     padding: .6875rem 3.05rem;
     border: .125rem solid transparent;
@@ -101,18 +88,14 @@
     color: #ff4e50;
     background-color: transparent;
     border: .125rem solid #ff4e50;
-    
 }
-
 .section-top {
     padding-bottom: 8.688rem;
 }
-
 .main {
     padding: 4.25rem 0 3.625rem;
     text-align: center;
 }
-
 .section-title {
     font-family: var(--ff-montserrat);
     font-size: 1.375rem;
@@ -120,7 +103,6 @@
     margin-bottom: .875rem;
     padding: 0 1.25rem;
 }
-
 .box-img {
     position: relative;
     width: 7.5rem;
@@ -128,7 +110,6 @@
     margin: auto;
     margin-bottom: 1.25rem;
 }
-
 .article-item-icon {
     display: block;
     position: absolute;
@@ -139,25 +120,21 @@
     border-radius: 50%;
     border: .25rem solid #ffffff;
 }
-
 .icon-1 {
     background-color: #ff291e;
     background-image: url(../img/1.png);
     background-position: center;
 }
-
 .icon-2 {
     background-color: #ffa507;
     background-image: url(../img/2.png);
     background-position: center;
 }
-
 .icon-3 {
     background-color: #1cd7ad;
     background-image: url(../img/3.png);
     background-position: center;
 }
-
 .icon-4 {
     background-color: #4e73db;
     background-image: url(../img/4.png);
@@ -175,9 +152,14 @@
     color: #858585;
     margin-top: 1.25rem;
     padding: 0 1.25rem;
-
 }
 .article-item {
+    margin-bottom: 1.75rem;
+}
+.article-item:last-child {
+    margin-bottom: 0;
+}
+.article-body {
     margin-bottom: 1.75rem;
 }
 .section-partner-btn {
@@ -194,22 +176,16 @@
 
 @media (min-width: 768px) {
     .header {
-        margin: auto;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        width: 86%;
         padding-top: 2.375rem
+    }
+    .logo-text{
+        text-align: left;
     }
     .nav {
         margin: 0;
     }
     .menu {
         justify-content: flex-end;
-    }
-    .menu-item {
-        flex-basis: auto;
     }
     .section-top {
         margin-top: 9.5rem;
@@ -230,22 +206,14 @@
         padding: 0;
         margin-bottom: 1.875rem;
     }
-    .article-body {
-        margin: auto;
-        width: 60.156%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
     .main {
         padding: 4.5rem 0 2.5rem;
     }
     .article-item {
-        flex-basis: 48%;
         margin-bottom: 3.625rem;
     }
     .article-item:nth-last-child(-n+2) {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
     }
     .article-item-text {
         padding: 0;
@@ -255,15 +223,14 @@
     }
 }
 
-@media (min-width: 942px) {
+@media (min-width: 992px) {
     .main {
         padding: 4.5rem 0 4.5rem;
     }
     .article-body {
-        width: 100%;
+        margin-bottom: 3.625rem;
     }
     .article-item {
-        flex-basis: 24%;
-        margin-bottom: 3.625rem;
+        margin-bottom: 0;
     }
 }
