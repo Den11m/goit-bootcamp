@@ -1,0 +1,54 @@
+@import "reset.css";
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ededed;
+    min-height: 100vh;
+}
+.menu-icon {
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    color: #363636;
+}
+.menu-icon span {
+    position: absolute;
+    height: .1rem;
+    width: 100%;
+    background-color: #363636;
+    transition: all 500ms ease-in-out;
+    transform: rotate(0deg);
+}
+.menu-icon span:nth-child(1) {
+    top: 0;
+}
+.menu-icon span:nth-child(2){
+    top: 33.33%;
+}
+.menu-icon span:nth-child(3){
+    top: 66.33%;
+}
+.menu-icon span:nth-child(4) {
+    bottom: 0;
+}
+.menu-button:hover span,
+.menu-button:active span {
+    background: #D00251;
+}
+.menu-icon:hover span:nth-child(2),
+.menu-icon:hover span:nth-child(3) {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.menu-icon:hover span:nth-child(1) {
+    transform-origin : 0 100% 0;
+    transform: rotate(45deg);
+    width: 2.7rem;
+}
+.menu-icon:hover span:nth-child(4) {
+    transform-origin : 0 100% 0;
+    transform: rotate(-45deg);
+    width: 2.7rem;
+}
