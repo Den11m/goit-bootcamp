@@ -1,0 +1,135 @@
+.learn {
+  padding: rem(48) 0;
+
+  &__body {
+    margin-top: rem(24);
+  }
+
+  &__post {
+    display: flex;
+    border: rem(1) solid #e5e7e9;
+    margin-bottom: rem(30);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__date {
+    text-align: center;
+    font-family: $font;
+    text-transform: uppercase;
+    font-size: rem(23);
+    font-weight: 700;
+    color: $white;
+    background-color: $green;
+    padding: rem(13);
+  }
+
+  &__desc {
+    padding: rem(13) rem(20);
+  }
+
+  &__text {
+    font-family: $font;
+    color: $black;
+    font-size: rem(14);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: rem(8);
+  }
+
+  &__comment {
+    font-family: $font;
+    color: $green;
+    font-size: rem(14);
+    text-transform: uppercase;
+  }
+
+  &__item {
+    margin-bottom: rem(32);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &--bgc {
+      background-color: $bg-color;
+      color: $white;
+      padding: rem(32);
+    }
+
+    & > .sub-title--green {
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  &__list {
+    margin-top: rem(20);
+    font-family: $font;
+    font-weight: 700;
+  }
+
+  &__tick {
+    line-height: rem(32);
+    display: flex;
+
+    &::before {
+      content: "";
+      display: block;
+      width: rem(20);
+      height: rem(20);
+      background-image: url(../img/arr.png);
+      background-position: center;
+      background-size: cover;
+      transform: rotate(90deg);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .learn {
+    padding: rem(80) 0;
+
+    &__body {
+      margin-top: rem(72);
+    }
+
+    &__date {
+      font-size: rem(25);
+      padding: rem(20);
+    }
+
+    &__desc {
+      flex-basis: 100%;
+      padding: rem(24) rem(27) rem(18);
+    }
+
+    &__text {
+      font-size: rem(20);
+    }
+
+    &__item--bgc {
+      padding: rem(48);
+    }
+
+    &__list {
+      margin-top: rem(52);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .learn {
+    &__body {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    &__item {
+      flex-basis: 45%;
+      margin: 0;
+    }
+  }
+}

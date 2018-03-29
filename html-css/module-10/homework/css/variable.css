@@ -1,0 +1,15 @@
+:root {
+    --ff-roboto: 'Roboto', sans-serif;
+    --ff-kaushan: 'Kaushan Script', cursive;
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --color-green: #95e1d3;
+    --color-pink: #f38181;
+    --color-yellow: #fce38a;
+    --color-text-1: #333333;
+    --color-text-2: #999999;
+    --color-border: #e5e5e5;
+    --color-border-sociale: #f9bd87;
+    --anime-time: 200ms;
+    --color-pink-hover: rgba(243, 129, 129, 0.9);
+    --color-yellow-hover: rgba(252, 227, 138, 0.9);
+}

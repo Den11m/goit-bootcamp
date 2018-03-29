@@ -1,0 +1,45 @@
+.services {
+  padding: rem(40) 0;
+
+  &__body{
+    margin-top: rem(30);
+  }
+
+  &__favore {
+    margin-bottom: rem(24);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.favore {
+  padding: rem(40) rem(20);
+  border: rem(1) solid #e5e7e9;
+
+  &__img {
+    margin: 0 auto rem(36);
+  }
+
+  &__sub-title {
+    margin-bottom: rem(16);
+  }
+}
+
+@media (min-width: 768px) {
+  .services {
+    padding: rem(80) 0;
+
+    &__body {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: rem(42);
+    }
+
+    &__favore {
+      flex-basis: 29%;
+      margin-bottom: 0;
+    }
+  }
+}
