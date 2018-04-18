@@ -410,6 +410,10 @@
 // }
 
 //     30) Возведите 2 в 10 степень. Результат запишите в переменную st.
+// вариант-1
+// let st = Math.pow(2, 10);
+// console.log(st);
+// вариант-2
 // let st = 2;
 // for (let i = 1; i < 10; i++) {
 //     st *= 2;
@@ -428,8 +432,14 @@
 // document.write(Math.ceil(Math.sqrt(587)));
 // document.write(Math.floor(Math.sqrt(587)));
 
-//     34)  Даны числа 4, -2, 5, 19, -130, 0, 10. Найдите минимальное и максимальное число.
+    // 34)  Даны числа 4, -2, 5, 19, -130, 0, 10. Найдите минимальное и максимальное число.
+// вариант-1
+// document.write(Math.min(4,-2,5,19,-130,0,10));
 // document.write(Math.max(4,-2,5,19,-130,0,10));
+// вариант-2
+// const numbers = [4, -2, 5, 19, -130, 0, 10];
+// document.write(Math.max(...numbers));
+// document.write(Math.min(...numbers));
 
 //     35) Выведите на экран случайное целое число от 1 до 100.
 // document.write(Math.round(Math.random()*100));
@@ -454,13 +464,15 @@
 //     39) Посчитать счет в гольфе par - среденее количество ударов для одной лунки par = 6 stroke =4 par = 5 stroke =8
 //     Ввести значения  par и stroke
 //     Удары =
-//         1          =>	"Hole-in-one!"
+//         1      =>	"Hole-in-one!"
 //     <= par - 2 =>	"Eagle"
 //     par - 1    =>	"Birdie"
 //     par        =>	"Par"
 //     par + 1    =>	"Bogey"
 //     par + 2    =>	"Double Bogey"
 //     >= par + 3 =>	"Go Home!"
+
+
 
 //     40) Пользователь вводит число. Проверить число на четное или не четное и вывести в консоль результат проверки.
 // let numbers = +prompt('введите число');
@@ -476,13 +488,28 @@
 // alert(`случайную букву в строке - ${randomLetter}`);
 
 //     42) Найдите суму всех товаров в корзине магазина без мелочи, с мелочью
+// let count = [10, 5.5, 5.1, 8.4, 7.7];
+// let summ = count.reduce(function (sum, current) {
+//     return sum + current;
+// },0);
+// console.log(Math.round(summ));
+// console.log(summ);
+
 //     43) Составте строку из 5-ти случайных букв алфавита
-let alfabet = 'qwertyuiop[]asdfghjkl;\'zxcvbnm,.\/';
-let randomWord;
-for (let i = 0; i < 5; i++){
-    let randomLetter = alfabet[Math.round((Math.random()*alfabet.length))];
-}
+// let alfabet = 'qwertyuiop[]asdfghjkl;\'zxcvbnm,.\/';
+// let randomWord = '';
+// for (let i = 0; i < 5; i++){
+//     let randomLetter = alfabet[Math.round((Math.random()*alfabet.length))];
+//     randomWord += randomLetter;
+// }
+// console.log(randomWord);
 
 //     45) Перевірити введену інфу число, чи воно є ціле і додатнє.
+// let number = +prompt('введите целое положительное число');
+// if (number > 0 && ((number ^ 0) === number)) {
+//     alert('правильно');
+// } else {
+//     alert('не правильно');
+// }
 
 
