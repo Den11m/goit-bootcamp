@@ -1,0 +1,15 @@
+.full-image {
+    width: 200px;
+    height: auto;
+}
+
+.small-image {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+.nano-image {
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}

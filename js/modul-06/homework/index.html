@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minin m-1-hw</title>
+</head>
+<body>
+
+<p>
+    /*<br>
+    Создайте менеджер управления данными аккаунтов пользователей соцсети SocialBook.<br>
+    <br>
+    Это ОБЯЗАТЕЛЬНО должен быть объект со свойствами и методами. Для создания объекта<br>
+    используйте функцию-конструктор, принимающую следующие параметры:<br>
+    - users - массив пользователей. Каждый пользователь это объект с полями:<br>
+    id - уникальный идентификатор<br>
+    login - почта<br>
+    password - пароль<br>
+    isActive - статус активности<br>
+    - posts - объект с ключами равными id пользователя соцсети SocialBook. Значениями свойтсв<br>
+    являются массивы постов пользователя. Каждый пост состоит из:<br>
+    id - уникальный идентификатор<br>
+    text - текст поста<br>
+    likes - количество лайков поста<br>
+    */<br>
+    <br>
+    function SocialBook (users = [], posts = {}) {<br>
+    // код<br>
+    }<br>
+    <br>
+    /*<br>
+    Используйте следующий массив пользователей при создании экземпляра SocialBook<br>
+    */<br>
+    const initialUsers = [<br>
+    { id: "-s19a6hqce", login: "mangozedog@mail.com", password: "qwe123zv", isActive: true },<br>
+    { id: "-qkpzenjxe", login: "polysweet@skynet.ze", password: "123zxc78", isActive: true },<br>
+    { id: "-e51cpd4di", login: "ajax2k@change.ua", password: "ert234qw", isActive: false }<br>
+    ];<br>
+    <br>
+    /*<br>
+    Используйте следующий объект постов пользователей при создании экземпляра SocialBook<br>
+    */<br>
+    const initialPosts = {<br>
+    "-s19a6hqce": [<br>
+    { id: "-5sgljaskg", text: "post #1", likes: 3 },<br>
+    { id: "-199hb6igr", text: "post #2", likes: 5 },<br>
+    { id: "-hy0eyw5qo", text: "post #3", likes: 13 }<br>
+    ],<br>
+    "-qkpzenjxe": [<br>
+    { id: "-5tu69g5rf", text: "post #1", likes: 8 },<br>
+    { id: "-bje766393", text: "post #2", likes: 15 }<br>
+    ],<br>
+    "-e51cpd4di": [<br>
+    { id: "-9y6nkmlj4", text: "post #1", likes: 18 },<br>
+    { id: "-i03pbhy3s", text: "post #2", likes: 45 }<br>
+    ],<br>
+    };<br>
+    <br>
+    /*<br>
+    Для создания уникального идентификатора для поля id, используйте<br>
+    вспомогательную функцию getId(), возвращающую уникальную строку.<br>
+    <br>
+    К примеру: const user = { id: getId(), name: 'Mango' };<br>
+    */<br>
+    const getId = () => "-" + Math.random().toString(36).substr(2, 9);<br>
+    <br>
+    /*<br>
+    Добавьте в SocialBook следующие методы для работы с пользователями:<br>
+    - getAllUsers() - возвращает массив всех пользователей
+    <br>
+    - getUserByLogin(login) - ищет и возвращает объект пользователя с совпадающим логином
+    <br>
+    - getUserStatus(userId) - ищет пользователя по id и возвращает 'active'
+    если isActive true, в противном случае возвращает 'inactive'.
+    <br>
+    - addUser(user) - принимает объект с полями и добавляет в свойство users
+    <br>
+    - removeUserById(userId) - удаляет пользователя из массива пользователей по полю id
+    <br>
+    - getUsersCount() - возвращает общее количество пользователей
+    */<br>
+    <br>
+    /*<br>
+    ***ДОПОЛНИТЕЛЬНОЕ ЗАДАНИЕ - выполнять по желанию***<br>
+    Добавьте в SocialBook следующие методы для работы с постами пользователей:<br>
+    - getUserPosts(userId) - возвращает массив постов пользователя с id равным userId
+    <br>
+    - addPost(userId, post) - добавляет post в поле posts объекта socialBook по ключу userId.
+    <br>
+    - removePost(userId, postId) - удаляет post с id равным postId из поля posts
+    объекта socialBook по ключу userId
+    <br>
+    - getAllLikes(userId) - возвращает сумму всех полей likes постов пользователя с id равным userId
+    <br>
+    - addPostLike(userId, postId) - увеличивает значение поля likes на 1 у поста с id равным postId,
+    для пользователя с id равным userId
+    <br>
+    - getPostsCount(userId) - возвращает общее количество постов пользователя с id равным userId
+    */<br>
+</p>
+
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>M-12_cw-01</title>
+</head>
+<body>
+
+<!--<div class="gallery">-->
+    <!--<h2 class="gallery-title">Gallery</h2>-->
+    <!--<div class="gallery-content"></div>-->
+<!--</div>-->
+
+
+<!--<script id="photo" type="img/template">-->
+    <!--{{#each images}}-->
+    <!--<div class="gallery-item">-->
+        <!--<img class="gallery-img" src="{{this.img}}" alt="">-->
+        <!--<p class="gallery-text">{{this.text}}</p>-->
+        <!--</div>-->
+    <!--{{/each}}-->
+<!--</script>-->
+
+<!--<script type="text/list" id="list">-->
+    <!--<ul class="list">-->
+        <!--<li class="item">-->
+        <!--<p class="name">{{name}}</p>-->
+        <!--<span class="count">{{count}}</span>-->
+        <!--</li>-->
+        <!--</ul>-->
+<!--</script>-->
+
+<!--<script type="text/list2" id="list2">-->
+    <!--<ul class="list">-->
+    <!--{{#each itemsArr}}-->
+        <!--<li class="item">-->
+        <!--<p class="name">{{this.name}}</p>-->
+        <!--<span class="count">{{this.count}}</span>-->
+        <!--</li>-->
+        <!--{{/each}}-->
+        <!--</ul>-->
+<!--</script>-->
+<input type="text" name="find__brand" class="find__brand" placeholder="brand">
+<input type="button" class="btn__iphone" value="find">
+<input type="button" class="btn__allphones" value="all">
+<div class="body__card"></div>
+
+<script type="text/card" id="card">
+    <div class="module-card-bottom">
+        <img src="img{{image}}"/>
+        <span class="name">{{name}}</span>
+        <div>
+        <p>{{description}}</p>
+        <span class="price">{{price}}$</span>
+    </div>
+
+<div class="info active">
+<p><b>cpu:</b> {{cpu}}</p>
+<p><b>camera:</b> {{camera}}</p>
+<p><b>weight:</b> {{weight}}</p>
+<p><b>display:</b> {{display}}</p>
+<p><b>battery:</b> {{battery}}</p>
+<p><b>memory:</b> {{memory}}</p>
+</div>
+    <button class="module-card-button">See More</button>
+    </div>
+</script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

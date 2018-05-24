@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+    color: #555555;
+    text-transform: uppercase;
+}
+.film__name {
+    text-align: center;
+    font-size: 25px;
+    color: orangered;
+}
+
+button {
+    text-align: center;
+}

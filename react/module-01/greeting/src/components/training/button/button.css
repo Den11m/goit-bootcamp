@@ -1,0 +1,22 @@
+.btn {
+    position: absolute;
+    right: 5%;
+    top: 38%;
+    height: 25px;
+    width: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    border-radius: 50%;
+    
+}
+.btn-play {
+    background-image: url(/icons/play.png);
+}
+
+.btn-pause {
+    background-image: url(/icons/pause.png);
+}

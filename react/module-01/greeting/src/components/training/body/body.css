@@ -1,0 +1,43 @@
+.timer__body {
+    box-sizing: border-box;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    width: 350px;
+    height: 625px;
+    background-image: url(/img/bg-login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timer__title {
+    color: #777777;
+    text-align: center;
+    text-transform: uppercase;
+}
+.timer__header {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.timer__icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-image: url(/icons/clock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timer {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, .5);
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.place {
+    position: relative;
+    /*background-image: url('https://st.depositphotos.com/1007097/3878/i/950/depositphotos_38780731-stock-photo-futsal-court.jpg');*/
+    background-image: url('https://burgerking.ru/images/product_images/mobile/Washper.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+li {
+    font-weight:400;
+    font-size: 18px;
+}
+
+.options {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 900;
+}
+
+
+
+.active {
+    color: red;
+    font-size: 20px;
+}
+/*.boll {*/
+    /*position: absolute;*/
+    /*height: 100px;*/
+    /*width: 100px;*/
+    /*border-radius: 50%;*/
+    /*background-image: url('https://classicfootballshop.com/image/cache/catalog/balls/world-cup-balls/1958-top-star-500x500.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*transition: 1s ease all;*/
+/*}*/

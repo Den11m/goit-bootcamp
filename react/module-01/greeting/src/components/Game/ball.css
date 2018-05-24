@@ -1,0 +1,34 @@
+.ball {
+    display: block;
+    position: absolute;
+    /*background-color: #000000;*/
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: inherit;
+    background-image: url(/icons/pacmanx.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.container {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px dashed #ffffff;
+    background-color: #999999;
+}
+.active-ball {
+    background-color: inherit;
+    background-image: url(/icons/pacman.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*transform: rotate(-90deg);*/
+    /*transform: rotateY(180deg);*/
+    z-index: 2;
+}

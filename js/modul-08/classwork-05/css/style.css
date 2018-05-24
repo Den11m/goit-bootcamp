@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://burgerking.ru/images/product_images/mobile/Washper_Cheeese.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 14px;
+}

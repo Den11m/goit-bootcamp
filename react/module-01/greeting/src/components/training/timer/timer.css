@@ -1,0 +1,14 @@
+.timer__line{
+    height: 15px;
+    background: linear-gradient(to right, rgb(222, 255, 201), rgb(163, 248, 255));
+    /*transition: 1s;*/
+    opacity: .5;
+}
+
+h2{
+    font-size: 45px;
+    line-height: 2;
+    margin: 0;
+    text-align: center;
+    font-weight: 300;
+}
