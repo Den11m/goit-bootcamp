@@ -19,8 +19,11 @@
     position: relative;
     width: 300px;
     height: 300px;
-    border: 1px dashed #ffffff;
-    background-color: #999999;
+    /*border: 1px dashed #999999;*/
+    background-image: url(/icons/pacmanplace.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .active-ball {
     background-color: inherit;
@@ -31,4 +34,12 @@
     /*transform: rotate(-90deg);*/
     /*transform: rotateY(180deg);*/
     z-index: 2;
+}
+
+.counter{
+    display: block;
+    position: absolute;
+    top: 44%;
+    left: 49%;
+    color: #777777;
 }

@@ -27,12 +27,13 @@ class Game extends Component {
             },
             {
                 x: 150,
-                y: 150,
+                y: 170,
                 r: 2,
                 controlled: true,
             },
         ],
 
+        counter: 0,
     };
 
     componentDidMount() {
@@ -115,7 +116,6 @@ class Game extends Component {
         })
     };
 
-
     ballDelete = () => {
         this.setState((prevState) => {
             const {balls} = prevState;
@@ -131,7 +131,8 @@ class Game extends Component {
                         ...balls[this.ballControlledIndex],
                         r: balls[this.ballControlledIndex].r + .25
                     },
-                ]
+                ],
+                counter: prevState.counter+1,
             }
         })
     };
@@ -161,11 +162,12 @@ class Game extends Component {
 
 
     render() {
-        const {balls} = this.state;
+        const {balls, counter} = this.state;
         return (
             <Fragment>
                 <h1>GAME</h1>
                 <div className='container'>
+                    <div className="counter">{counter}</div>
                     {balls.map((ball, index) => <Ball key={index}{...ball}/>)}
                 </div>
             </Fragment>

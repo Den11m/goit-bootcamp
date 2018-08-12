@@ -1,3 +1,10 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +37,18 @@
 .active {
   color: orangered;
   text-decoration: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.wrap-app {
+  width: 55%;
+}
+
+.wrap-app__btn {
+  background-color: orangered;
+  border: none;
+  padding: 2px;
 }

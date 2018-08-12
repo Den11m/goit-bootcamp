@@ -14,6 +14,7 @@ import ManagerImg from './components/ManagerImg/ManagerImg';
 import Nano from "./components/ManagerImg/Image.nano";
 import withImage from './components/ManagerImg/withImage'
 import Game from './components/Game/Game';
+import WrapApp from './components/WrapApp/wrapApp';
 import { BrowserRouter, Route, Switch, Redirect, Link, NavLink } from 'react-router-dom';
 import './App.css';
 
@@ -22,6 +23,10 @@ const EnchangeNano = withImage(Nano);
 
 const TimerPage = ()=>(
     <Timer />
+);
+
+const WrapAppPage = ()=>(
+    <WrapApp />
 );
 
 const PostPage = ()=>(
@@ -38,6 +43,9 @@ const Menu = () => (
       </p>
       <p>
           <NavLink to='/timer/'>timer</NavLink>
+      </p>
+      <p>
+          <NavLink to='/wrapApp/'>wrapApp</NavLink>
       </p>
   </nav>
 );
@@ -87,6 +95,7 @@ class App extends Component {
                 <Menu/>
                 <Switch>
                     {/*<Route path='/' component={()=>}/>*/}
+                    <Route path='/wrapApp/' component={WrapAppPage}/>
                     <Route path='/timer/' component={TimerPage}/>
                     <Route path='/post/' component={PostPage}/>
                     <Route path='/game/' component={Game}/>
